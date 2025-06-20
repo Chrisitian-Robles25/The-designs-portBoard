@@ -79,4 +79,17 @@ Stitch generó el prototipo visual completo, aplicando:
 ---
 
 ## 🧩 Pantallas generadas por Stitch
+![image](https://github.com/user-attachments/assets/95207a21-052a-4350-b358-d8f979031e81)
+
+![image](https://github.com/user-attachments/assets/a12a8642-ae52-4f8b-8bb3-9a7f486f29b7)
+
+![image](https://github.com/user-attachments/assets/7d0afbb6-5062-431c-a824-57bce24b5a0d)
+
+![image](https://github.com/user-attachments/assets/c12b134b-11c6-42b4-ac09-7a2c224486b1)
+
+![image](https://github.com/user-attachments/assets/39792a01-e68d-445c-bfc6-e5c08e7137e6)
+
+![image](https://github.com/user-attachments/assets/11ca584d-1120-4539-8b78-8abe511b1ad3)
+
+
 
