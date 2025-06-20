@@ -79,7 +79,8 @@ Stitch generó el prototipo visual completo, aplicando:
 ---
 
 ## 🧩 Pantallas generadas por Stitch
-![image](https://github.com/user-attachments/assets/95207a21-052a-4350-b358-d8f979031e81)
+![image](https://github.com/user-attachments/assets/c9b70906-ab7f-4737-8f80-7398f1747130)
+
 
 ![image](https://github.com/user-attachments/assets/a12a8642-ae52-4f8b-8bb3-9a7f486f29b7)
 
