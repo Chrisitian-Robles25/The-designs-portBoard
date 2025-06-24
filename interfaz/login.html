@@ -14,46 +14,64 @@
     <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
   </head>
   <body>
-    <div class="relative flex size-full min-h-screen flex-col bg-white group/design-root overflow-x-hidden" style='font-family: Lexend, "Noto Sans", sans-serif;'>
+    <div class="relative flex size-full min-h-screen flex-col bg-[#fcf8f8] group/design-root overflow-x-hidden" style='font-family: Lexend, "Noto Sans", sans-serif;'>
       <div class="layout-container flex h-full grow flex-col">
+        <header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#f3e7e8] px-10 py-3">
+          <div class="flex items-center gap-4 text-[#1c0d0e]">
+            <div class="size-4">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_6_319)">
+                  <path
+                    d="M8.57829 8.57829C5.52816 11.6284 3.451 15.5145 2.60947 19.7452C1.76794 23.9758 2.19984 28.361 3.85056 32.3462C5.50128 36.3314 8.29667 39.7376 11.8832 42.134C15.4698 44.5305 19.6865 45.8096 24 45.8096C28.3135 45.8096 32.5302 44.5305 36.1168 42.134C39.7033 39.7375 42.4987 36.3314 44.1494 32.3462C45.8002 28.361 46.2321 23.9758 45.3905 19.7452C44.549 15.5145 42.4718 11.6284 39.4217 8.57829L24 24L8.57829 8.57829Z"
+                    fill="currentColor"
+                  ></path>
+                </g>
+                <defs>
+                  <clipPath id="clip0_6_319"><rect width="48" height="48" fill="white"></rect></clipPath>
+                </defs>
+              </svg>
+            </div>
+            <h2 class="text-[#1c0d0e] text-lg font-bold leading-tight tracking-[-0.015em]">SportBoard</h2>
+          </div>
+          <div class="flex flex-1 justify-end gap-8">
+            <div class="flex items-center gap-9"></div>
+            <div
+              class="bg-center bg-no-repeat aspect-square bg-cover rounded-full size-10"
+              style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCltE7V6OVDX3a5um-lDXz-egEIj4-JaC-y0TTHpG4gKWSc_tFCVJVD15HHMyIS59FxAf6mJCz3OfgTRmTxk03zP7qbjE8tXicrcI4KlFSA99C1yV4uWoVbPpKW6mjj-FmtKPC09QnlTEsFWcSrnyQiYHkkuVhiIcLmGiPDavrmcyDY2E_PVorp4qhLFgyvFYEsHo619uUEZehriPddy198TbqDiyGx39H0X9cq--yG5xfBGkpf3EL2yqrLdKSLn6ZUvcML68wpHhI");'
+            ></div>
+          </div>
+        </header>
         <div class="px-40 flex flex-1 justify-center py-5">
           <div class="layout-content-container flex flex-col w-[512px] max-w-[512px] py-5 max-w-[960px] flex-1">
-            <div class="@container">
-              <div class="@[480px]:px-4 @[480px]:py-3">
-                <div
-                  class="w-full bg-center bg-no-repeat bg-cover flex flex-col justify-end overflow-hidden bg-white @[480px]:rounded-xl min-h-80"
-                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDHHJG66QnpZO2tctUvU-e-VEWiD-ify7vu7KLJPOob5ESCCig5SXYYK5eoEilJZZ-Xrp7l8RsdoE4pA6JJmfLJvPYU28i3YKtPJhUzzxMK6vxZaFgusrdE-RnAhRQxbBayiVDIhZwaxRA9z-DK5G55rmNUNBp0Byt68EWxiWtjHE-F8VYzNrYLLWeASsqPzP_AKM4MEYbY68bU5zy1ib0hMyKTmB-w8jepsecxG8PPy9wOjdd7C4mNVNn_2QaPw-R8tXY5h9nbwpwo");'
-                ></div>
-              </div>
-            </div>
-            <h2 class="text-[#121417] tracking-light text-[28px] font-bold leading-tight px-4 text-center pb-3 pt-5">Welcome Back</h2>
+            <h2 class="text-[#1c0d0e] tracking-light text-[28px] font-bold leading-tight px-4 text-center pb-3 pt-5">Educamos para Transformar</h2>
             <div class="flex max-w-[480px] flex-wrap items-end gap-4 px-4 py-3">
               <label class="flex flex-col min-w-40 flex-1">
+                <p class="text-[#1c0d0e] text-base font-medium leading-normal pb-2">Institutional Email/ID</p>
                 <input
-                  placeholder="Username"
-                  class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-xl text-[#121417] focus:outline-0 focus:ring-0 border-none bg-[#f1f2f4] focus:border-none h-14 placeholder:text-[#677583] p-4 text-base font-normal leading-normal"
+                  placeholder="Enter your email or ID"
+                  class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-lg text-[#1c0d0e] focus:outline-0 focus:ring-0 border-none bg-[#f3e7e8] focus:border-none h-14 placeholder:text-[#9b4b4f] p-4 text-base font-normal leading-normal"
                   value=""
                 />
               </label>
             </div>
             <div class="flex max-w-[480px] flex-wrap items-end gap-4 px-4 py-3">
               <label class="flex flex-col min-w-40 flex-1">
+                <p class="text-[#1c0d0e] text-base font-medium leading-normal pb-2">Password</p>
                 <input
-                  placeholder="Password"
-                  class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-xl text-[#121417] focus:outline-0 focus:ring-0 border-none bg-[#f1f2f4] focus:border-none h-14 placeholder:text-[#677583] p-4 text-base font-normal leading-normal"
+                  placeholder="Enter your password"
+                  class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-lg text-[#1c0d0e] focus:outline-0 focus:ring-0 border-none bg-[#f3e7e8] focus:border-none h-14 placeholder:text-[#9b4b4f] p-4 text-base font-normal leading-normal"
                   value=""
                 />
               </label>
             </div>
+            <p class="text-[#9b4b4f] text-sm font-normal leading-normal pb-3 pt-1 px-4 underline">Forgot your password?</p>
             <div class="flex px-4 py-3">
               <button
-                class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-12 px-5 flex-1 bg-[#d2e2f3] text-[#121417] text-base font-bold leading-normal tracking-[0.015em]"
+                class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 px-5 flex-1 bg-[#b40d15] text-[#fcf8f8] text-base font-bold leading-normal tracking-[0.015em]"
               >
-                <span class="truncate">Login</span>
+                <span class="truncate">Iniciar sesión</span>
               </button>
             </div>
-            <p class="text-[#677583] text-sm font-normal leading-normal pb-3 pt-1 px-4 text-center underline">Don't have an account? Sign up</p>
-            <p class="text-[#677583] text-sm font-normal leading-normal pb-3 pt-1 px-4 text-center">"Excellence is not a skill. It is an attitude." - Ralph Marston</p>
           </div>
         </div>
       </div>
